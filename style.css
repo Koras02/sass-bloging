@@ -1,0 +1,27 @@
+* {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fcc;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container .wrapper {
+  margin: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container .wrapper .wrapper-center {
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
