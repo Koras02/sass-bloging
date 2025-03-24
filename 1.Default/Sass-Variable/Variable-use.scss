@@ -1,0 +1,18 @@
+$primary-color: #3498db;
+$font-size: 16px;
+$background-color: #224682;
+$padding: 10px;
+
+.box {
+  padding: $padding;
+}
+
+button {
+  padding: $padding;
+}
+
+body {
+  color: $primary-color;
+  font-size: $font-size;
+  background-color: $background-color;
+}
