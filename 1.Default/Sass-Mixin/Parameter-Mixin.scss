@@ -1,0 +1,10 @@
+@mixin rounded($radius) {
+  border-radius: $radius;
+}
+
+.button {
+  padding: 10px 20px;
+  background: tomato;
+  color: #fff;
+  @include rounded(15px);
+}

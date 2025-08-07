@@ -1,0 +1,12 @@
+@mixin center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #34948b;
+  @include center-box;
+}
