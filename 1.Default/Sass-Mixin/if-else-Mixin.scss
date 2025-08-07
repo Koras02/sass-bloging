@@ -1,0 +1,27 @@
+@mixin theme($mode) {
+  @if $mode == "dark" {
+    background-color: white;
+    color: black;
+  } @else if $mode == "light" {
+    background-color: black;
+    color: white;
+  } @else {
+    background: gray;
+    color: white;
+  }
+}
+
+.card-light {
+  @include theme(light);
+  padding: 20px;
+}
+
+.card-dark {
+  @include theme(dark);
+  padding: 20px;
+}
+
+.card-unknown {
+  @include theme(unknown);
+  padding: 20px;
+}

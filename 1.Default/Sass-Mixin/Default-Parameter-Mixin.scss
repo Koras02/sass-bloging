@@ -1,0 +1,12 @@
+@mixin font($size: 16px, $weight: normal) {
+  font-size: $size;
+  font-weight: $weight;
+}
+
+.text-default {
+  @include font; // 기본값 적용
+}
+
+.text-custom {
+  @include font(20px, bold); // 사용자 정의 값 적용
+}
