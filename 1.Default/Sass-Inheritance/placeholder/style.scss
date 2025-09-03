@@ -1,0 +1,15 @@
+%button-base {
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.primary-button {
+  @extend %button-base;
+  background-color: green;
+}
+
+.secondary-button {
+  @extend %button-base;
+  background-color: gray;
+}

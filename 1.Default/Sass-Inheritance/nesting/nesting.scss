@@ -1,0 +1,22 @@
+.card-primary,
+.card-secondary {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-repeat: 10px;
+}
+
+.card-primary {
+  background-color: #f0f8ff;
+}
+
+.card-primary h2 {
+  color: blue;
+}
+
+.card-secondary {
+  background-color: #000;
+}
+
+.card-secondary h2 {
+  color: green;
+}
