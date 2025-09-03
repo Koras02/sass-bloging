@@ -1,0 +1,15 @@
+.secondary-button, .primary-button {
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.primary-button {
+  background-color: green;
+}
+
+.secondary-button {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
